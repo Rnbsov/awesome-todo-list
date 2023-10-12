@@ -1,23 +1,27 @@
 /** @type {import('tailwindcss').Config} */
+import gridAreas from '@savvywombat/tailwindcss-grid-areas'
+
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       gridTemplateAreas: {
-        'layout': [
+        layout: [
           'sidebar header header',
           'sidebar main main',
           'sidebar main main',
         ],
       },
       gridTemplateColumns: {
-        'layout': '1fr 1fr 1fr',
+        layout: '1fr 1fr 1fr',
       },
       gridTemplateRows: {
-        'layout': 'auto 1fr 1fr',
+        layout: 'auto 1fr 1fr',
       },
     },
   },
-  plugins: [],
+  plugins: [gridAreas],
 }
-
