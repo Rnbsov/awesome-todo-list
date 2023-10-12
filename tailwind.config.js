@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        darkBackground: '#1F1D2B',
+        cl1: '#FF6A75',
+        cl2: '#FC9F24'
+      },
       gridTemplateAreas: {
         layout: [
           'sidebar header header',
@@ -19,7 +24,7 @@ export default {
         layout: '1fr 1fr 1fr',
       },
       gridTemplateRows: {
-        layout: 'auto 1fr 1fr',
+        layout: '80px 1fr 1fr',
       },
     },
   },

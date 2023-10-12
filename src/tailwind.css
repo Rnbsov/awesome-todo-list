@@ -1,6 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* .btn {
+  width: 47px;
+  height: 47px;
+  border-radius: 10px;
+  background: linear-gradient(47deg, #FF6A75 7.2%, #FC9F24 111.63%);
+} */
 
 body {
   margin: 0;
