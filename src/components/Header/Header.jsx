@@ -2,7 +2,7 @@ import { Plus, Search } from 'lucide-react'
 
 const Header = () => {
   return (
-    <div className='grid-in-header flex justify-between p-5'>
+    <header role='banner' className='grid-in-header flex justify-between p-5 role'>
       <p>Title</p>
       {/* <AddButton /> */}
       <div className='flex items-center justify-center'>
@@ -25,7 +25,7 @@ const Header = () => {
           alt='Rounded avatar'
         />
       </div>
-    </div>
+    </header>
   )
 }
 
