@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBackground: '#1F1D2B',
-        cl1: '#FF6A75',
+        darkBackground: '#1F1D2B', // #1a1433 
+        cl1: '#FF6A75', 
         cl2: '#FC9F24'
       },
       gridTemplateAreas: {
@@ -21,7 +21,7 @@ export default {
         ],
       },
       gridTemplateColumns: {
-        layout: '1fr 1fr 1fr',
+        layout: 'auto 1fr 1fr',
       },
       gridTemplateRows: {
         layout: '80px 1fr 1fr',

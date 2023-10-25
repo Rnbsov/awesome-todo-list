@@ -25,6 +25,7 @@ const Sidebar = () => {
           </div>
         </div>
 
+        {/* Nav */}
         <nav className='flex flex-1 flex-col'>
           <ul className='flex flex-1 flex-col gap-y-7'>
             <li>
@@ -51,7 +52,6 @@ const Sidebar = () => {
               </ul>
             </li>
 
-
             <li className='mt-auto'>
               <a
                 href='#'
@@ -64,13 +64,6 @@ const Sidebar = () => {
           </ul>
         </nav>
       </div>
-
-      {/* Nav */}
-      <nav>
-        <section></section>
-        <section></section>
-        <section></section>
-      </nav>
     </aside>
   )
 }
