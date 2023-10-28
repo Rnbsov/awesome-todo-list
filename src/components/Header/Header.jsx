@@ -2,20 +2,24 @@ import { Plus, Search } from 'lucide-react'
 
 const Header = () => {
   return (
-    <header role='banner' className='grid-in-header flex justify-between p-5 role'>
+    <header
+      role='banner'
+      className='grid-in-header flex justify-between p-5 role'
+    >
       <p>Title</p>
       {/* <AddButton /> */}
-      <div className='flex items-center justify-center'>
-        <div>
-          <Search />
+      <div className='flex items-center justify-center gap-5'>
+        <div className='relative flex items-center justify-center'>
           <input
-            type='text'
+            type='search'
             placeholder='Search'
-            className='rounded-full bg-transparent border-4  border-slate-400 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-400'
+            name='search'
+            className='rounded-2xl outline-none pl-10 bg-transparent border-[3px] border-darkOutline px-5 py-2   focus:border-purple-600 '
           />
+          <Search color='#8F8D9A' className='absolute left-2' />
         </div>
 
-        <button className='w-6 h-6 bg-gradient-to-tr from-cl1 to-cl2 flex justify-center items-center rounded text-white p-1 mr-5'>
+        <button className='w-6 h-6 bg-gradient-to-tr from-cl1 to-cl2 flex justify-center items-center rounded text-white p-1'>
           <Plus size={24} />
         </button>
 

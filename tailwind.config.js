@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         darkBackground: '#1F1D2B', // #1a1433 
+        darkOutline: '#2A2836',
         cl1: '#FF6A75', 
         cl2: '#FC9F24'
       },
